@@ -1,8 +1,21 @@
-# React + Vite
+# Teleafya
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Teleafya is a Telemedicine web solution that aims to revolutionize healthcare delivery by providing telemedicine services and offering training opportunities in health entrepreneurship. The project involves creating user-friendly and scalable applications to improve access to healthcare services and enhance health education.
 
-Currently, two official plugins are available:
+## How to Contribute.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository
+   git clone https://github.com/Victortimbwa/teleafya.git
+
+2. Install node modules.
+   npm install
+
+3. Navigate to the repository directory.
+   cd client-frontend
+
+4. Create a New branch
+   git checkout -b <branch name>
+
+5. Make your changes.
+
+6. Commit your changes
