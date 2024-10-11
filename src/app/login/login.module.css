@@ -1,0 +1,102 @@
+.homelogin {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.left {
+	background-image: url("/assets/images/background-login-min.webp");
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left h1 {
+	color: #031f4f;
+	font-weight: 800;
+	font-size: 3rem;
+	line-height: 3rem;
+}
+
+.left span {
+	color: #031f4f;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 60%;
+}
+
+.right h4 {
+	color: #031f4f;
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.right p {
+	font-weight: 300;
+	margin-bottom: 1rem;
+	font-size: 0.9rem;
+	width: 60%;
+	margin-bottom: 1rem;
+	align-items: center;
+}
+
+.loginform {
+	width: 100%;
+}
+
+.loginform button {
+	border: none;
+	background-color: var(--color-navy);
+	color: #fff;
+	font-weight: 600;
+	padding: 0.75rem 0.5rem;
+	width: 100%;
+	border-radius: 0.25rem;
+	transition: 0.35s;
+	cursor: pointer;
+}
+
+.loginform button:hover {
+	border: none;
+	background-color: var(--color-gold);
+	color: white;
+	font-weight: 600;
+	padding: 0.75rem 0.5rem;
+	width: 100%;
+	border-radius: 0.25rem;
+	transition: 0.35s;
+}
+
+.inputbox {
+	display: flex;
+	gap: 0.5rem;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	margin-bottom: 0.5rem;
+	padding-right: 0.75rem;
+	border-radius: 0.25rem;
+}
+
+.inputbox input {
+	width: 100%;
+	padding: 0.75rem;
+	outline: none;
+	border: none;
+	background-color: #fff;
+	font-family: "Poppins", sans-serif;
+	appearance: none;
+	border-radius: 0.25rem;
+}

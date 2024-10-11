@@ -1,0 +1,122 @@
+.sidebar_wrapper {
+	position: relative;
+}
+
+@media screen and (max-width: 960px) {
+	.sidebar__wrapper {
+		display: none;
+		transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+	}
+
+	.btn {
+		display: none;
+	}
+
+	[data-collapse="false"].sidebar__wrapper {
+		width: 5.3rem;
+	}
+}
+.btn {
+	position: absolute;
+	right: 0;
+	top: 2.5rem;
+	border: none;
+	background-color: var(--color-navy);
+	width: 2rem;
+	height: 2rem;
+	border: 1px solid var(--color-border);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transform: translateX(50%);
+	font-size: 1.1rem;
+	color: white;
+	font-weight: 700;
+}
+
+.sidebar {
+	width: 15rem;
+	height: 100%;
+	background-color: #fff;
+	padding: 1rem;
+	transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+	font-weight: 300;
+}
+
+.sidebar_header {
+	width: max-content;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+	border-bottom: 1px solid var(--color-border);
+}
+
+.sidebar_logo {
+	width: 3.5rem;
+	height: 3.5rem;
+	object-fit: contain;
+	border-radius: 1rem;
+}
+
+.sidebar_logo-name {
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.list_navs {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.sidebar__list {
+	list-style: none;
+}
+
+.sidebar_item {
+	padding: 0.4rem 0rem;
+	border-bottom: lightgray solid 1px;
+	font-size: 0.9rem;
+	display: flex;
+	align-items: center;
+}
+
+.sidebar_icon {
+	color: var(--color-gold);
+	cursor: pointer;
+}
+
+.sidebar_name {
+	margin-left: 0.5rem;
+	color: black;
+}
+
+.tooltiptext {
+	display: none;
+}
+
+[data-collapse="true"] .sidebar__name,
+[data-collapse="true"] .copyright,
+[data-collapse="true"] .imagelogo {
+	display: none;
+}
+
+[data-collapse="true"] .vlogo,
+[data-collapse="true"] .tooltiptext {
+	display: inline-block;
+	transition: 0.3s;
+}
+
+.copyright {
+	margin-bottom: 0.5rem;
+	font-size: 0.7rem;
+	font-weight: 600;
+	color: var(--color-navy);
+	position: absolute;
+	bottom: 0;
+	transition: all ease-in-out 0.3s;
+}

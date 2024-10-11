@@ -1,0 +1,35 @@
+.bottom_banner {
+	padding: 1rem 1.5rem;
+}
+
+.top_image {
+	height: 160px;
+	background-image: url("/assets/images/background-login-min.jpg");
+	background-position: center;
+	background-size: cover;
+	background-color: #031f4f;
+	border-radius: 0.5rem;
+	margin-top: 1rem;
+	display: flex;
+	justify-content: space-between;
+	gap: 2rem;
+	align-items: center;
+	padding: 1.5rem;
+	color: white;
+}
+
+.topimage p {
+	color: #fff;
+	font-size: 0.9rem;
+	max-width: 49%;
+}
+
+.stores {
+	display: flex;
+	gap: 1rem;
+}
+
+.store_logo {
+	border: 1px solid gray;
+	border-radius: 0.25rem;
+}

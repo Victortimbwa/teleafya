@@ -1,0 +1,47 @@
+.navbar {
+	border-bottom: 1px solid var(--color-gray);
+	width: 100%;
+	padding: 0.5rem 1.5rem;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	justify-content: space-between;
+	font-size: 1.1rem;
+	background-color: #e5e7eb;
+}
+
+.pagename p {
+	font-size: 0.9rem;
+	color: gray;
+}
+
+.navbar_elements {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	justify-content: center;
+}
+
+.icons_sides {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	justify-content: center;
+}
+
+.icons {
+	color: var(--color-gold);
+	font-size: 1.25rem;
+}
+
+.prof {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+
+.profile_image {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
