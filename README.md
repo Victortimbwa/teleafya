@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Screenshot from 2023-04-17 03-32-36](https://res.cloudinary.com/difjkimdu/image/upload/v1728634616/banner_qrm6aj.png)
 
-## Getting Started
+# Teleafya : An online chronic medical consultation platform.
 
-First, run the development server:
+Teleafya is an online community driven project created with passion to help patients with chronic illness to access medical care services including illness consulation and obtaining drug refills.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The Teleafya platform offers comprehensive telemedicine application services such as online consultation, booking appointment, monitoring health records and other services.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Teleafya offers the following features
 
-## Learn More
+- Booking virtual appointments.
+- Tracking status of appointments.
+- Medical history.
+- E-pharmacy.
 
-To learn more about Next.js, take a look at the following resources:
+# Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This is a community driven project to get started follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Fork the repository
+- Create a new branch
+- Make your changes and commit them
+- Push your changes to your forked repository
+- Create a pull request
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To check out open issues feel free to checkout the issues page : [Issues](https://github.com/Victortimbwa/teleafya/issues)
