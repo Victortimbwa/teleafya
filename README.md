@@ -28,3 +28,17 @@ This is a community driven project to get started follow these steps:
 - Create a pull request
 
 To check out open issues feel free to checkout the issues page : [Issues](https://github.com/Victortimbwa/teleafya/issues)
+
+For more information on how to contribute, checkout the Guidelines [contributions]()
+
+## Commit message template
+
+To understand how to craft readable and meaningful commit messages, kindly follow the guidelines here [Commit template](https://github.com/Victortimbwa/teleafya/blob/main/.github/.git_commit_template)
+
+# License
+
+Teleafya licensed under the MIT License. See LICENSE for more information.
+
+# Contributors
+
+Victor Timbwa <victortimbwa@gmail.com>
