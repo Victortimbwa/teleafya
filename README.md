@@ -29,7 +29,7 @@ This is a community driven project to get started follow these steps:
 
 To check out open issues feel free to checkout the issues page : [Issues](https://github.com/Victortimbwa/teleafya/issues)
 
-For more information on how to contribute, checkout the Guidelines [contributions]()
+For more information on how to contribute, checkout the Guidelines [contributions](https://github.com/Victortimbwa/teleafya/blob/main/contributions.md)
 
 ## Commit message template
 
